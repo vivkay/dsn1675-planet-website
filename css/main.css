@@ -30,15 +30,15 @@ img {
   width: 100%;
 }
 
-.links li {
+.nav li {
 	color: #0074D9;
 }
 
-.links a {
+.nav a {
 	text-decoration: none;
 }
 
-.links {	
+.nav {	
 	list-style-type: none;
 	padding: 0;
 }
@@ -56,11 +56,11 @@ img {
 
 @media only screen and (min-width: 20em) {
 	
-	.links li {
+	.nav li {
 		display: inline-block;
 	}
 	
-	.links {
+	.nav {
 		text-align: center;
 	}
 	
@@ -72,7 +72,7 @@ img {
 		float: left;
 	}
 	
-	.links {
+	.nav {
 		float: left;
 	}
 	
