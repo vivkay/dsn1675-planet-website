@@ -48,6 +48,12 @@ img {
 	overflow: hidden;
 }
 
+.light-grey {
+	background-color: #e2e2e2;
+	overflow: hidden;
+	text-align: center;
+}
+
 .title {
 	padding: 0;
 	margin: 0;
