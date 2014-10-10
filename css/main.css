@@ -36,6 +36,7 @@ img {
 
 .nav a {
 	text-decoration: none;
+	display: block;
 }
 
 .nav {	
@@ -44,7 +45,7 @@ img {
 }
 
 .grey {
-	background-color: #AAAAAA;
+	background-color: #CCC;
 	overflow: hidden;
 }
 
@@ -55,6 +56,11 @@ img {
 }
 
 .light-grey2 {
+	background-color: #e2e2e2;
+	overflow: hidden;
+}
+
+.light-grey3 {
 	background-color: #efefef;
 	overflow: hidden;
 }
