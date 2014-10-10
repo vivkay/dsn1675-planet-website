@@ -54,9 +54,12 @@ img {
 	text-align: center;
 }
 
+.light-grey2 {
+	background-color: #efefef;
+	overflow: hidden;
+}
+
 .title {
-	padding: 0;
-	margin: 0;
 	text-align: center;
 }
 
