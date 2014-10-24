@@ -10,21 +10,30 @@
 </head>
 <body>
 
-	<header class="grid grey island grid-middle">
+	<ul class="skip-links">
+		<li><a href="#main">Jump to main content</a></li>
+		<li><a href="#navigation">Jump to navigation</a></li>
+	</ul>
+	
+	<header role="banner" class="grid grey island grid-middle">
 
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
 			<h1 class="title giga push-none">Jupiter</h1>
 		</div>
  
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
-			<ul class="nav mega push-none">
-				<li><a class="island-half" href="index.html">Planet</a></li>
-				<li><a class="island-half" href="moons.html">Moons</a></li>
-				<li><a class="island-half" href="exploration.html">Exploration</a></li>
-			</ul>
+			<nav role="navigation" id="navigation">
+				<ul class="nav mega push-none">
+					<li><a class="island-half" href="index.html">Planet</a></li>
+					<li><a class="island-half" href="moons.html">Moons</a></li>
+					<li><a class="island-half" href="exploration.html">Exploration</a></li>
+				</ul>
+			</nav>
 		</div>
 
 	</header>
+	
+	<main id="main" role="main">
 	
 	<div class="light-grey island-half">
 		<p class="peta push-none">Jupiter, the fifth planet in the solar system.</p>
@@ -100,9 +109,11 @@
 		</div>
 	
 	</div>
+		
+		</main>
 	
 	<footer class="grid grey island-half">
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+		<div role="content info" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
 			<p class="micro push-none copyright-footer">© 2014 Jupiter Planetary Consortium</p>
 		</div>
 		

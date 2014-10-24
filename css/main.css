@@ -46,6 +46,35 @@ body {
 	padding: 0;
 }
 
+a:focus {
+	outline:3px solid #000;
+}
+
+/*
+It is okay to get rid of the focus rectangle for mouse users BUT NEVER REMOVE IT FOR KEYBOARD USERS!!!!!!
+*/
+
+.skip-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}	
+
+.skip-links a {
+	position: absolute;
+	top: -3em;
+	padding: 0.5em 0.75em;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.skip-links a:focus {
+	top: 0;
+}
+
 img {
 	display: block;
  	width: 100%;
