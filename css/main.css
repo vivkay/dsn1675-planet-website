@@ -233,6 +233,7 @@ img {
 
 label {
 	display: block;
+	vertical-align: middle;
 }
 
 .wide {
@@ -247,6 +248,7 @@ textarea {
 input {
 	height: 3em;
 	border: 1px solid #CCC;
+	vertical-align: middle;
 }
 
 .center {
