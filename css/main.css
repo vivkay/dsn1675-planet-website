@@ -263,6 +263,7 @@ input {
 	border-radius: 6px;
 	background-color: gold;
 	border-color: red;
+	cursor: pointer;
 }
 
 .rocket {
