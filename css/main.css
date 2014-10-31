@@ -115,6 +115,12 @@ img {
 	overflow: hidden;
 }
 
+.light-grey4 {
+	background-color: #e2e2e2;
+	padding: 2em;
+}
+
+
 .title {
 	text-align: center;
 }
@@ -209,7 +215,6 @@ img {
 		display: inline-block;
 	}
 		
-	
 }
 
 @media only screen and (min-width: 38em) {
@@ -230,3 +235,56 @@ label {
 	display: block;
 }
 
+.wide {
+	width: 100%;
+}
+
+textarea {
+	height: 20em;
+	border: 1px solid #CCC;
+}
+
+input {
+	height: 3em;
+	border: 1px solid #CCC;
+}
+
+.center {
+	text-align: center;
+	padding: .5em;
+	margin: 0;
+}
+
+.button {
+	text-align:center;
+}
+
+.rounded {
+	border-radius: 6px;
+	background-color: gold;
+	border-color: red;
+}
+
+.rocket {
+	width: 100%;
+	padding: 2em;
+}
+
+input + label {
+	display: inline-block;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radio {
+	white-space: nowrap;
+}
+
+form {
+	max-width: 35em;
+	margin: 0 auto;
+}

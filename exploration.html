@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Exporing Jupiter</title>
+  <title>Exploring Jupiter</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/grid.css" rel="stylesheet">
 	<link href="css/typography.css" rel="stylesheet">
@@ -39,47 +39,63 @@
 			<h1 class="peta push-none">Exploration</h1>
 		</div>
 		
+		<p>Insert Table Here…</p>
+		
 	<div class="light-grey">
-		<h2 class="peta push-none">Join Jupiter's Explorations Team</h2>
-		<p>Are you interested in exploring Jupiter with a group of extremely talented people? <em>Sign up below!</em></p>
+		<h2 class="center">Join Jupiter's Explorations Team</h2>
+		<p class="center">Are you interested in exploring Jupiter with a group of extremely talented people? <em>Sign up below!</em></p>
 	</div>
+		
+		<div class="light-grey4">
 					
-		<form action="thanks.html" method="post"></form>
+			<form action="thanks.html" method="post">
+
+			<div>
+				<label for="name">Name</label>
+				<input class="wide" id="name">
+			</div>
+
+			<div>
+				<label for="email">Email</label>
+				<input class="wide" type="email" id="email">
+			</div>
+
+			<div>
+				<label for="age">Age</label>
+				<input class="wide" type="number" id="age" min="0" max="130">
+			</div>
+
+			<fieldset class="push-none">
+				<legend class="pad-t"><em>Your level of awesomeness</em></legend>
+				
+				<span class="radio">
+					<input type="radio" id="meh" name="awesomeness">
+					<label for="meh">Meh…</label>
+				</span>
+				<span class="radio">
+					<input type="radio" id="good" name="awesomeness">
+					<label for="good">Pretty good.</label>
+				</span>
+				<span class="radio">
+					<input type="radio" id="super" name="awesomeness">
+					<label for="super">Super!</label>
+				</span>
+			</fieldset>
+
+			<div>
+				<label for="explain" class="pad-t">Explain why you deserve to go:</label>
+				<textarea class="wide" id="explain"></textarea>
+			</div>
+
+			<div class="button">
+				<button type="submit" class="tera rounded">Sign Up</button>
+			</div>
 		
-		<div>
-			<label for="name">Name</label>
-			<input id="name">
-		</div>
-		
-		<div>
-			<label for="email">Email</label>
-			<input type="email" id="email">
-		</div>
-		
-		<div>
-			<label for="age">Age</label>
-			<input type="number" id="age" min="0" max="130">
-		</div>
-		
-		<div>
-			<p>Your level of awesomeness</p>
-			<input type="radio" id="meh" name="awesomeness">
-			<label for="meh">Meh…</label>
-			<input type="radio" id="good" name="awesomeness">
-			<label for="good">Pretty good.</label>
-			<input type="radio" id="super" name="awesomeness">
-			<label for="super">Super!</label>
-		</div>
-		
-		<div>
-			<label for="explain">Explain why you deserve to go!</label>
-			<textarea id="explain"></textarea>
-		</div>
+				</form>
 			
-		<div>
-			<button type="submit">Submit</button>
 		</div>
 		
+			
 	</main>
 														
 	<footer class="grid grey island-half">
