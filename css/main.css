@@ -226,3 +226,7 @@ img {
 	
 }
 
+label {
+	display: block;
+}
+
