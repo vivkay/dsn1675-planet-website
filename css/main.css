@@ -8,8 +8,6 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
-	font: normal 100%/1.5 sans-serif;
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -81,12 +79,13 @@ img {
 }
 
 .nav li {
-	color: #0074D9;
+	color: #e0ffff;
 }
 
 .nav a {
 	text-decoration: none;
 	display: block;
+	color: #e0ffff;
 }
 
 .nav {	
@@ -95,18 +94,18 @@ img {
 }
 
 .grey {
-	background-color: #CCC;
+	background-color: #2F4F4F;
 	overflow: hidden;
 }
 
 .light-grey {
-	background-color: #e2e2e2;
+	background-color: #5F9EA0;
 	overflow: hidden;
 	text-align: center;
 }
 
 .light-grey2 {
-	background-color: #e2e2e2;
+	background-color: #afeeee;
 	overflow: hidden;
 }
 
@@ -263,8 +262,8 @@ input {
 
 .rounded {
 	border-radius: 6px;
-	background-color: gold;
-	border-color: red;
+	background-color: #afeeee;
+	border-color: #2F4F4F;
 	cursor: pointer;
 }
 

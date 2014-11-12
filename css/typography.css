@@ -6,6 +6,22 @@ h1, h2, h3, h4, h5, h6, .brand-family {
 font-family: "Raleway", sans-serif;
 }
 
+h1 {
+	color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
