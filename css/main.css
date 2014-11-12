@@ -52,6 +52,42 @@ a:focus {
 It is okay to get rid of the focus rectangle for mouse users BUT NEVER REMOVE IT FOR KEYBOARD USERS!!!!!!
 */
 
+a,
+a:link,
+a:visited {
+  color: #7fffd4;
+}
+
+a:hover,
+a:active {
+  outline: none;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #f0e6b6;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #7fffd4;
+
+  color: #008b8b;
+}
+
 .skip-links {
 	margin: 0;
 	padding: 0;
@@ -80,6 +116,7 @@ img {
 
 .nav li {
 	color: #e0ffff;
+	display: block;
 }
 
 .nav a {

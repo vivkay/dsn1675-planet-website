@@ -2,24 +2,8 @@ html {
   font: normal 100%/1.5 "Droid Serif",serif;
 }
 
-h1, h2, h3, h4, h5, h6, .brand-family {
-font-family: "Raleway", sans-serif;
-}
-
 h1 {
 	color: white;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.regular {
-  font-weight: normal;
-}
-
-.italic {
-  font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -160,4 +144,25 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.brand-family {
+font-family: "Raleway", sans-serif;
+}
+
+.default-family {
+  font-family: "Droid Serif",serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
 }
