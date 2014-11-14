@@ -164,6 +164,12 @@ img {
 .nav-footer {
 	text-align: left;
 }
+
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited {
+	display: inline-block;
+}
 	
 .copyright-footer {
 	text-align: left;
